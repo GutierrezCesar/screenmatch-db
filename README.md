@@ -36,6 +36,9 @@ docker run --name screenmatch-db \
 ```
 Luego asegúrate de configurar la conexión en application.properties o application.yml.
 
-🔐 Variables de entorno
-Este proyecto requiere una API Key de OMDb para funcionar correctamente. No incluyas claves directamente en el código. Usa variables de entorno o un archivo .env.
-String apiKey = System.getenv("OMDB_API_KEY");
+## 🔐 Variables de entorno
+
+- Este proyecto requiere una API Key de OMDb para funcionar correctamente. 
+- No incluyas claves directamente en el código.
+- Usa variables de entorno o un archivo .env.
+- String apiKey = System.getenv("OMDB_API_KEY");
